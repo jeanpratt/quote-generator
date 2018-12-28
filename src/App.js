@@ -87,6 +87,7 @@ class App extends Component {
           <React.Fragment>
             <small className="color--grey font-size--sm margin-top--sm">Tags for this quote:
               {currentQuote.tags.map((tag, index) => {
+                // List tags for this quote, insert comma after each if not the last tag
                 return ` "${tag}${(index + 1) !== currentQuote.tags.length ? '", ' : '"'}`;
               })}
             </small>
