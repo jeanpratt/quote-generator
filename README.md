@@ -2,6 +2,8 @@
 
 A small project that selects a random quote from a list of 20+ JSON objects to display to the user. Allows for filtering by tag, where the tags are dynamically pulled from the JSON list.
 
+See the app live at: https://jeanpratt.github.io/quote-generator/
+
 Since the app was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), the following scripts are available if the project is cloned on your local machine:
 
 - `npm start` - Runs the app in development mode
