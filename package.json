@@ -2,17 +2,20 @@
   "name": "quote_generator",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://jeanpratt.github.io/quote-generator",
   "dependencies": {
     "classnames": "^2.2.6",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-scripts": "2.1.1"
+    "react-scripts": "^2.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
